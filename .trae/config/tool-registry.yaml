@@ -1,0 +1,22 @@
+# TRAE v7.0 工具注册表
+registry:
+  version: "7.0.0"
+
+categories:
+  file_operations:
+    tools:
+      read:
+        name: "读取文件"
+      write:
+        name: "写入文件"
+      edit:
+        name: "编辑文件"
+  
+  code_analysis:
+    tools:
+      lsp_goto_definition:
+        name: "跳转到定义"
+      lsp_find_references:
+        name: "查找引用"
+      lsp_diagnostics:
+        name: "诊断检查"

@@ -1,0 +1,19 @@
+# TRAE v7.0 智能体配置
+agent:
+  name: "TRAE"
+  capabilities:
+    - code_generation
+    - code_review
+    - refactoring
+    - debugging
+  
+  experts:
+    musk:
+      name: "执行专家"
+      domain: "execution"
+    einstein:
+      name: "科学专家"
+      domain: "science"
+    da_vinci:
+      name: "艺术专家"
+      domain: "artistry"

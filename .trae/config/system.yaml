@@ -1,0 +1,38 @@
+# TRAE v7.0 系统配置
+system:
+  name: TRAE
+  version: "7.0.0"
+  mode: production
+
+modules:
+  core:
+    path: "01-core/"
+    priority: 100
+  engine:
+    path: "02-engine/"
+    priority: 95
+  context:
+    path: "03-context/"
+    priority: 90
+  quality:
+    path: "04-quality/"
+    priority: 85
+  security:
+    path: "05-security/"
+    priority: 100
+  wisdom:
+    path: "06-wisdom/"
+    priority: 80
+
+model_routing:
+  categories:
+    quick:
+      complexity_range: [0.0, 0.3]
+    ultrabrain:
+      complexity_range: [0.8, 1.0]
+
+workflow:
+  default_mode: "plan"
+
+privacy:
+  default_level: "balanced"
